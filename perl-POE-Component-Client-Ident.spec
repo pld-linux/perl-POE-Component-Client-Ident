@@ -8,13 +8,13 @@
 Summary:	POE::Filter::Ident - A POE-based parser for the Ident protocol
 Summary(pl.UTF-8):	POE::Filter::Ident - oparty na POE analizator protokołu Ident
 Name:		perl-POE-Component-Client-Ident
-Version:	1.05
+Version:	1.07
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/POE/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4957a042e4dd5710b75ac7b911dde2c4
+# Source0-md5:	52745a132291ca3b119cc6e98ab742a8
 URL:		http://search.cpan.org/dist/POE-Component-Client-Ident/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -31,7 +31,7 @@ POE::Component::Client::Ident::Agent. They look like this:
 
 { name => 'event name', args => [ some info about the event ] }
 
-%description -l pl # TODO
+%description -l pl
 POE::Filter::Ident przyjmuje linie surowego wejścia od Identa i
 zamienia je na dziwne małe struktury danych, nadające się do
 przekazywania do modułu POE::Component::Client::Ident::Agent.

@@ -32,7 +32,7 @@ POE::Component::Client::Ident::Agent. They look like this:
 
 { name => 'event name', args => [ some info about the event ] }
 
-%description -l pl
+%description -l pl.UTF-8
 POE::Filter::Ident przyjmuje linie surowego wejścia od Identa i
 zamienia je na dziwne małe struktury danych, nadające się do
 przekazywania do modułu POE::Component::Client::Ident::Agent.

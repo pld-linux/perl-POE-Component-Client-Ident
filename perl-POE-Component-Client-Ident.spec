@@ -8,7 +8,7 @@ Summary:	POE::Filter::Ident - A POE-based parser for the Ident protocol
 Summary(pl.UTF-8):	POE::Filter::Ident - oparty na POE analizator protokołu Ident
 Name:		perl-POE-Component-Client-Ident
 Version:	1.16
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
